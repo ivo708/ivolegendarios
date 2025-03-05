@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "name.modid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"BlockDisplayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
